@@ -1,10 +1,10 @@
-import tkinter as tk
+import customtkinter as ctk
 
 from erp_agent_ui import ERPApp
 
 
 def main():
-    root = tk.Tk()
+    root = ctk.CTk()
     ERPApp(root)
     root.mainloop()
 
